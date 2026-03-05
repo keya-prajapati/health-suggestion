@@ -1,0 +1,124 @@
+.dashboard-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2e7d32;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.dashboard-navbar .logo {
+  font-size: 22px;
+}
+
+.nav-icons li {
+  display: inline-block;
+  margin-left: 15px;
+  font-size: 22px;
+}
+
+.dashboard-hero {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.dashboard-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.dashboard-card {
+  background: #f1f8e9;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card-emoji {
+  font-size: 36px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* ================== DOCTORS SECTION ================== */
+.doctors-section {
+  margin-top: 40px;
+}
+
+.doctors-section h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #2e7d32;
+  text-align: center;
+}
+
+.doctors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.doctor-card {
+  background: #f1f8e9;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.doctor-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.doctor-card h4 {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.doctor-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.doctor-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* ================== APPOINTMENT BUTTON ================== */
+.btn-appointment {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2e7d32;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-appointment:hover {
+  background-color: #1b5e20;
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
